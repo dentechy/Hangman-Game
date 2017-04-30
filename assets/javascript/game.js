@@ -4,3 +4,9 @@
 //Possible code to address point #1:
 //document.onkeypress=function(e){ //do required work }
 //2. Variables need to be declared that do the following: The words that the user needs to guess (could be an array that gets cycled through as the game progresses), a counter that keeps track of the letters already used and another counter to keep track of the number of guesses.
+
+
+document.onkeypress = function(event) {
+        alert("You pressed a key!")
+
+     }
